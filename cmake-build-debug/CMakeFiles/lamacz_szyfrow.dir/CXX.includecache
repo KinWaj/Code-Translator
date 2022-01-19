@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kingn/OneDrive/Pulpit/lamacz_szyfrow/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+cctype
+-
+map
+-
+vector
+-
+

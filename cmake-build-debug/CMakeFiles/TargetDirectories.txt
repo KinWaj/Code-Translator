@@ -1,0 +1,3 @@
+C:/Users/kingn/OneDrive/Pulpit/lamacz_szyfrow/cmake-build-debug/CMakeFiles/lamacz_szyfrow.dir
+C:/Users/kingn/OneDrive/Pulpit/lamacz_szyfrow/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kingn/OneDrive/Pulpit/lamacz_szyfrow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
