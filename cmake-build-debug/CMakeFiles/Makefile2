@@ -53,16 +53,16 @@ RM = "B:\C++\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow
+CMAKE_SOURCE_DIR = C:\Users\kingn\OneDrive\Pulpit\code_breaker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lamacz_szyfrow.dir/all
+all: CMakeFiles/code_breaker.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lamacz_szyfrow.dir/clean
+clean: CMakeFiles/code_breaker.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lamacz_szyfrow.dir
+# Target rules for target CMakeFiles/code_breaker.dir
 
 # All Build rule for target.
-CMakeFiles/lamacz_szyfrow.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target lamacz_szyfrow"
-.PHONY : CMakeFiles/lamacz_szyfrow.dir/all
+CMakeFiles/code_breaker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target code_breaker"
+.PHONY : CMakeFiles/code_breaker.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lamacz_szyfrow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lamacz_szyfrow.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/lamacz_szyfrow.dir/rule
+CMakeFiles/code_breaker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/code_breaker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/code_breaker.dir/rule
 
 # Convenience name for target.
-lamacz_szyfrow: CMakeFiles/lamacz_szyfrow.dir/rule
-.PHONY : lamacz_szyfrow
+code_breaker: CMakeFiles/code_breaker.dir/rule
+.PHONY : code_breaker
 
 # clean rule for target.
-CMakeFiles/lamacz_szyfrow.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/clean
-.PHONY : CMakeFiles/lamacz_szyfrow.dir/clean
+CMakeFiles/code_breaker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/clean
+.PHONY : CMakeFiles/code_breaker.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

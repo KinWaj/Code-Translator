@@ -56,10 +56,10 @@ RM = "B:\C++\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow
+CMAKE_SOURCE_DIR = C:\Users\kingn\OneDrive\Pulpit\code_breaker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug\CMakeFiles C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug\CMakeFiles C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\lamacz_szyfrow\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kingn\OneDrive\Pulpit\code_breaker\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lamacz_szyfrow
+# Target rules for targets named code_breaker
 
 # Build rule for target.
-lamacz_szyfrow: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lamacz_szyfrow
-.PHONY : lamacz_szyfrow
+code_breaker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 code_breaker
+.PHONY : code_breaker
 
 # fast build rule for target.
-lamacz_szyfrow/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/build
-.PHONY : lamacz_szyfrow/fast
+code_breaker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/build
+.PHONY : code_breaker/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lamacz_szyfrow.dir\build.make CMakeFiles/lamacz_szyfrow.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code_breaker.dir\build.make CMakeFiles/code_breaker.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lamacz_szyfrow
+	@echo ... code_breaker
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

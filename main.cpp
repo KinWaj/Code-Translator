@@ -67,8 +67,6 @@ auto swap(std::string text, int number/* 0-15 number of position key in the file
     return out.str();
 }
 
-
-
 auto cipher_cesar(std::string text, int number) ->std::string //ciphers into cesar cipher
 {
     std::ostringstream out;
@@ -122,10 +120,6 @@ auto decipher_cesar(std::string text, int number) ->std::string //deciphers cesa
     return out.str();
 
 }
-
-
-
-
 
 auto cipher_morse(std::string const text) ->std::string// codes text into morse
 {
@@ -206,12 +200,8 @@ auto decipher_morse(std::string const text) ->std::string// deciphers text from 
     return out.str();
 }
 
-
-
-
-
-
 int main() {
-    std::cout<<swap("Hello there~!",12);
+    auto x = cipher_morse("hello computer");
+    std::cout<<decipher_morse(x);
     return 0;
 }

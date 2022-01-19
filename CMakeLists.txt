@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
-project(lamacz_szyfrow)
+project(code_breaker)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lamacz_szyfrow main.cpp)
+add_executable(code_breaker main.cpp)
+ 
